@@ -23,9 +23,6 @@ html{
     font-family: 'Rajdhani', sans-serif;
 }
 
- 
-
-
 a{
     text-decoration: none;
     transition: color 0.3s ease;
@@ -109,20 +106,31 @@ nav button#menuButton{
     font-size: 24px;
     padding: 7px;
 }
+
+
+
+
 .main{
     /* background-color: #deebee; */
-     background: linear-gradient(to bottom, #3C1315, #0E0E17); 
+    background: linear-gradient(to bottom, #3C1315, #0E0E17); 
     padding: 90px 85px;
-     display: flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    
+ 
     gap: 40px;
     
 }
+
 .main .left{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    min-height: 500px; 
     align-items: start;
+   
+ 
+   
     color: #fc012a;
     text-shadow: 0 0 10px #ff0000;
 }
@@ -141,6 +149,7 @@ nav button#menuButton{
     color: #fc012a;
     font-size: 22px;
     margin-top: 20px;
+  
    
 
 }
